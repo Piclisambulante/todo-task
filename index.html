@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas Avançada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button id="toggleTheme" class="theme-toggle">🌞/🌙</button>
+            <h1 id="title">Lista de Tarefas</h1>
+        </header>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Digite uma tarefa e pressione ENTER">
+        </div>
+        <ul id="taskList"></ul>
+        <p id="scoreDisplay">Pontuação: 0</p>
+        <div id="celebration" class="hidden">
+            🎉 <span>Parabéns!</span> Você alcançou 100 pontos! Hora de descansar! 🎉
+        </div>
+    </div>
+    <footer>
+        <p>Organize suas tarefas com estilo! ✨</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
